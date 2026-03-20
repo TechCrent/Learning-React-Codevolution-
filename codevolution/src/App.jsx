@@ -4,6 +4,7 @@ import {ContactForm} from './ContactForm.jsx'
 import { CandidateProfile } from './CandidateProfile.jsx'
 import { CardWrapper } from './CardWrapper.jsx'
 import { UserDetails } from './UserDetails.jsx'
+import { ProductList } from './ProductList.jsx'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
         <p>ciicicrensil@gmail.com</p>
         <button>Edit profile</button>
       </CardWrapper>
+
+      <ProductList />
     </>
   )
 }
