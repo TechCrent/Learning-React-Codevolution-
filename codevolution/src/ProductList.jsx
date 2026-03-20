@@ -34,7 +34,7 @@ export const ProductList = () =>{
         }))
         .map((prod) =>{
             return(
-                <div>
+                <div key={prod.id}>
                     <h2>{prod.name}</h2>
                     <p>Price: ${prod.price}</p>
                 </div>

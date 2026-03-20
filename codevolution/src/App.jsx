@@ -5,11 +5,14 @@ import { CandidateProfile } from './CandidateProfile.jsx'
 import { CardWrapper } from './CardWrapper.jsx'
 import { UserDetails } from './UserDetails.jsx'
 import { ProductList } from './ProductList.jsx'
+import {Alert} from './Alert.jsx'
+
 
 function App() {
 
   return (
     <>
+      <Alert> Your changes have been saved!</Alert>
       <h1 className='text-blue-600'>Codevolution React Course</h1>
 
       <UserDetails name="Crent" isOnline={true}/>
