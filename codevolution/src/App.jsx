@@ -6,12 +6,20 @@ import { CardWrapper } from './CardWrapper.jsx'
 import { UserDetails } from './UserDetails.jsx'
 import { ProductList } from './ProductList.jsx'
 import {Alert} from './Alert.jsx'
+import { CustomButton } from './CustomButton.jsx'
+import { Contact } from './Contact.jsx'
+import { Newsletter } from './Newsletter.jsx'
+import { Menu } from './Menu.jsx'
 
 
 function App() {
 
   return (
     <>
+      <Menu />
+      <Contact/>
+      <Newsletter/>
+      
       <Alert> Your changes have been saved!</Alert>
       <h1 className='text-blue-600'>Codevolution React Course</h1>
 
@@ -25,6 +33,8 @@ function App() {
       </CardWrapper>
 
       <ProductList />
+
+
     </>
   )
 }
