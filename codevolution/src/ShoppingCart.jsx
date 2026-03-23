@@ -52,7 +52,7 @@ export const ShoppingCart = () => {
             prices={prices}
             />
 
-            <button onClick={(clearCart)}>Clear Cart</button>
+            <button onClick={(clearCart )}>Clear Cart</button>
         </div>
     )
 }
