@@ -7,6 +7,7 @@ import { PrevStateCounter } from './PrevStateCounter'
 import { BatchingStateCounter } from './BatchingCounter'
 import { UserProfile } from './UserProfile'
 import { TodoList } from './TodoList'
+import { ShoppingCart } from './ShoppingCart'
 
 function App() {
 
@@ -16,9 +17,10 @@ function App() {
       {/* <SimpleCounter />
       <PrevStateCounter /> 
       <BatchingStateCounter />
-      <UserProfile /> */}
+      <UserProfile />
+      <TodoList /> */}
 
-      <TodoList />
+      <ShoppingCart />
     </>
   )
 }
