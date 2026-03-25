@@ -9,6 +9,7 @@ import { UserProfile } from './UserProfile'
 import { TodoList } from './TodoList'
 import { ShoppingCart } from './ShoppingCart'
 import { CounterWithReducer } from './CounterWithReducer'
+import { ShoppingCartWithReducer } from './ShoppintCartWithReducer'
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
       <BatchingStateCounter />
       <UserProfile />
       <TodoList />
-      <ShoppingCart /> */}
+      <ShoppingCart />
+      <CounterWithReducer /> */}
 
-      <CounterWithReducer />
+      <ShoppingCartWithReducer />
     </>
   )
 }
